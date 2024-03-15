@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+:root {
+    --header-font: "Lalezar", system-ui;;
+
+    --lightest: #e4e4e4;
+    --ligth: #b7aba6;
+    --medium: #8c7e7a;
+    --dark: #5c504f;
+    --darkest: #302b28;
+    --accent: #7A8C81;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--darkest);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

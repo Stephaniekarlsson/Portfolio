@@ -1,0 +1,16 @@
+.icons {
+ 
+    margin-top: 1.2em;
+    cursor: pointer;
+}
+
+
+.linkedin {
+    margin-right: 3.1em;
+}
+
+@media screen and (min-width: 1040px) {
+    .linkedin {
+        margin-right: 0em;
+    }
+}

@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5em;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%; */
+}
+
+.my-name {
+    color: var(--accent);
+    font-size: 32px;
+    font-family: var(--header-font);
+}
+
+.lastname {
+    margin-top: -0.9em;
+    margin-left: .25em;
+}
+
+.header-icons {
+    display: flex;
+    gap: 1em;
+}
