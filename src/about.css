@@ -1,0 +1,31 @@
+
+.profile-img-about {
+    opacity: 20%;
+    height: 100%;
+    width: auto;
+}
+
+
+.about-text-container {
+    font-family: var(--header-font);
+    font-size: 32px;
+    color: var(--ligth);
+    z-index: 99;
+    max-width: 1000px;
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    margin-left: 1em;
+}
+
+.about-text-container h2 {
+    color: var(--medium);
+    font-size: 32px;
+    text-shadow: 0px 4px 4px black;
+}
+
+.about-text-container p {
+    text-shadow: 0px 2px 2px black;
+
+}

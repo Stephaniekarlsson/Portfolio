@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
 
 :root {
-    --header-font: "Lalezar", system-ui;;
+    --header-font: "Lalezar", system-ui;
+    --p-font: "Kumbh Sans", sans-serif;
 
     --lightest: #e4e4e4;
     --ligth: #b7aba6;

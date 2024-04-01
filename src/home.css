@@ -25,7 +25,7 @@ section {
 .profile-text {
     font-family: var(--header-font);
     font-size: 58px;
-    color: var(--ligth);
+    color: var(--medium);
     z-index: 99;
     max-width: 700px;
     text-align: center;
@@ -33,10 +33,12 @@ section {
     top: 25%;
     left: 0%;
     margin-left: 1em;
+    text-shadow: 0px 4px 4px black;
+
 }
 
 .profile-text span {
-    color: var(--lightest);
+    color: var(--ligth);
 }
 
 

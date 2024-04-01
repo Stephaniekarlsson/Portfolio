@@ -1,0 +1,52 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    margin: 4em;
+}
+
+
+.project-img {
+    width: 400px;
+    height: 250px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--lightest);
+    border-radius: 20px;
+    width: 80%;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.projects:hover {
+    background-color: var(--dark);
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+    text-align: center;
+    font-family: var(--header-font);
+}
+
+.text-container h2 {
+    font-size: 32px;
+    color: var(--ligth);
+}
+
+.text-container p {
+    font-size: 24px;
+    color: var(--lightest);
+}
+

@@ -1,0 +1,40 @@
+body {
+    font-family: var(--header-font);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.main-container h2 {
+    font-size: 32px;
+    color: var(--medium);
+}
+
+.contact {
+    font-size: 20px;
+    color: var(--ligth);
+}
+
+.main-container a, .main-container p {
+    font-size: 24px;
+    color: var(--accent);
+}
+
+.main-container a:hover, .main-container p:hover {
+    color: var(--lightest);
+}
+
+.link {
+    cursor: pointer;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+}
