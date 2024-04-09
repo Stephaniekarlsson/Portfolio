@@ -9,7 +9,7 @@
 
 
 .project-img {
-    width: 400px;
+    max-width: 400px ;
     height: 250px;
 }
 
@@ -50,4 +50,34 @@
     font-size: 24px;
     color: var(--lightest);
 }
+
+@media (max-width: 1300px) {
+    .projects {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .text-container {
+        flex-direction: column;
+        gap: .5em;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .project-img {
+        max-width: 300px ;
+        height: 150px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        align-items: center;
+        margin: 1em .1em;
+        margin-left: auto;
+    }
+}
+
 

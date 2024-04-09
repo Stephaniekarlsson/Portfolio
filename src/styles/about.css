@@ -16,7 +16,7 @@
     position: absolute;
     top: 15%;
     left: 2%;
-    margin-left: 1em;
+    margin: 1em;
 }
 
 .about-text-container h2 {
@@ -28,4 +28,13 @@
 .about-text-container p {
     text-shadow: 0px 2px 2px black;
 
+}
+
+@media (max-width: 800px) {
+    .about-text-container {
+        font-size: 25px;
+        position: none;
+        margin: .5em;
+    
+    }
 }

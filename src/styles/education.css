@@ -73,3 +73,28 @@ footer {
     display: flex;
     gap: .5em;
 }
+
+@media (max-width: 800px) {
+    .outer-main-container {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .education-experience {
+        gap: 2em;
+        margin-top: 0;
+    }
+
+    footer {
+        margin-bottom: 1em;
+    }
+
+    footer img {
+        width: 40px;
+    }
+
+    .container {
+        gap: 3em;
+    }
+
+}
