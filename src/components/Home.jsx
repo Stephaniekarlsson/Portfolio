@@ -1,11 +1,17 @@
 import React from "react";
-import profile from "./assets/profile-3.png";
+import profile from "../assets/profile-3.png";
 import { Link } from "react-router-dom";
-import "./home.css";
+import "../styles/home.css";
+import {motion} from "framer-motion"
 
 function Home() {
   return (
-    <section>
+    <motion.section 
+    initial= {{opacity: 0}}
+    animate= {{opacity: 1}}
+    exit= {{opacity: 0}}
+    transition= {{duration: 1}}
+    >
       <div className="img-container">
         <img
           className="profile-img profile-item"
@@ -17,7 +23,7 @@ function Home() {
           tiden vill utvecklas och komma framåt.
         </h2>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

@@ -1,16 +1,16 @@
 import React from "react";
-import "./education.css";
-import BadgeCheck from "./assets/bxs-badge-check.svg";
-import CircleQuarter from "./assets/bx-circle-quarter.svg";
-import UserIcon from "./assets/bxs-user (1).svg";
-import Graduation from "./assets/bxs-graduation.svg";
-import HTML5 from "./assets/bxl-html5.svg";
-import CSS3 from "./assets/bxl-css3.svg";
-import Javascript from "./assets/bxl-javascript.svg";
-import Git from "./assets/bxl-git.svg";
-import Github from "./assets/bxl-github.svg";
-import Figma from "./assets/bxl-figma.svg";
-import ReactIcon from "./assets/bxl-react.svg";
+import "../styles/education.css";
+import BadgeCheck from "../assets/bxs-badge-check.svg";
+import CircleQuarter from "../assets/bx-circle-quarter.svg";
+import UserIcon from "../assets/bxs-user (1).svg";
+import Graduation from "../assets/bxs-graduation.svg";
+import HTML5 from "../assets/bxl-html5.svg";
+import CSS3 from "../assets/bxl-css3.svg";
+import Javascript from "../assets/bxl-javascript.svg";
+import Git from "../assets/bxl-git.svg";
+import Github from "../assets/bxl-github.svg";
+import Figma from "../assets/bxl-figma.svg";
+import ReactIcon from "../assets/bxl-react.svg";
 
 function Education() {
   return (

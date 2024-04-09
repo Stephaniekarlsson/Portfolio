@@ -1,9 +1,9 @@
 import React from "react";
-import "./portfolio.css";
-import Ratthjalpen from "./assets/mockup - rh-lott.png";
-import Pokemanager from "./assets/mockup - pokemanager.png";
-import Hangman from "./assets/mockup - hangman.png";
-import Conference from "./assets/mockup - battrewebb.png";
+import "../styles/portfolio.css";
+import Ratthjalpen from "../assets/mockup - rh-lott.png";
+import Pokemanager from "../assets/mockup - pokemanager.png";
+import Hangman from "../assets/mockup - hangman.png";
+import Conference from "../assets/mockup - battrewebb.png";
 
 function Portfolio() {
   const handleDivClick = (url) => {

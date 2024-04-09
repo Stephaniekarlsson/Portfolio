@@ -1,15 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Header"
-import Navbar from "./Navbar"
-import Home from "./Home";
-import About from "./About";
-import Education from "./Education.jsx"
-import Portfolio from "./Portfolio.jsx"
-import Contact from "./Contact.jsx"
+import Header from "./components/Header"
+import Navbar from "./components/Navbar"
+import Home from "./components/Home";
+import About from "./components/About";
+import Education from "./components/Education.jsx"
+import Portfolio from "./components/Portfolio.jsx"
+import Contact from "./components/Contact.jsx"
+import {AnimatePresence} from "framer-motion"
+
 function App() {
   
   return (
-    <>
+    <AnimatePresence>
     <BrowserRouter>
     <Header />
     <Navbar />
@@ -21,7 +23,7 @@ function App() {
         <Route path="contact" element={<Contact />}/>
       </Routes>
     </BrowserRouter>
-    </>
+    </ AnimatePresence>
   )
 }
 

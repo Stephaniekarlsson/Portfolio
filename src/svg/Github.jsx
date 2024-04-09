@@ -8,7 +8,11 @@ export default function GithubSvg({ width = 35, height = 35 }) {
         className="icons github"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
-        style={{ fill: "rgba(122, 140, 129, 1)", width: `${width}px`, height: `${height}px` }}
+        style={{
+          fill: "rgba(122, 140, 129, 1)",
+          width: `${width}px`,
+          height: `${height}px`,
+        }}
       >
         <path
           fillRule="evenodd"
@@ -19,4 +23,3 @@ export default function GithubSvg({ width = 35, height = 35 }) {
     </>
   );
 }
-
