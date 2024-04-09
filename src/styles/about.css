@@ -33,8 +33,13 @@
 @media (max-width: 800px) {
     .about-text-container {
         font-size: 25px;
-        position: none;
-        margin: .5em;
-    
+        position: static;
+        margin: 1em;
+        font-size: 23px;
     }
+
+    .profile-img-about {
+       display: none;
+    }
+
 }
